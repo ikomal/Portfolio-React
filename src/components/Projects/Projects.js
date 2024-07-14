@@ -50,7 +50,7 @@ connection."
               imgPath={food}
               isBlog={false}
               title="FoodBestow"
-              description="This platform is designed to provide surplus fodd left over in pg,restaurents and hotels to the needy ones by connecting them with NGOs.It is an intermediate to connect the donors to receivers"
+              description="This platform is designed to provide surplus food left over in pg,restaurents and hotels to the needy ones by connecting them with NGOs.It is an intermediate to connect the donors to receivers"
               ghLink="https://github.com/ikomal/FoodBestow"
               demoLink="https://food-bestow.vercel.app/"
             />
