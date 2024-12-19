@@ -47,9 +47,9 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={food}
+              imgPath={rental}
               isBlog={false}
-              title="FoodBestow"
+              title="Rental Website"
               description="Designed and developed a responsive rental website to showcase property listings with detailed descriptions, images, and pricing.Integrated interactive features such as image carousels, property details pages, and booking forms.Implemented responsive design for compatibility across various devices and screen sizes."
               ghLink="https://github.com/ikomal/Rental-website"
               demoLink="https://rental-website-seven.vercel.app/"
