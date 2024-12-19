@@ -5,6 +5,8 @@ import Particle from "../Particle";
 import elearning from "../../Assets/Projects/e-learning2.jpeg";
 import food from "../../Assets/Projects/food-donation.jpeg";
 import swiggy from "../../Assets/Projects/swiggy.png";
+import rental from "../../Assets/Projects/rental.jpg";
+import img from "../../Assets/Projects/img_gallery2.jpeg";
 // import chatify from "../../Assets/Projects/chatify.png";
 // import suicide from "../../Assets/Projects/suicide.png";
 // import bitsOfCode from "../../Assets/Projects/blog.png";
@@ -34,14 +36,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={elearning}
+              imgPath={img}
               isBlog={false}
-              title="LearnX"
-              description="Designed a website to deliver the content to the students related to web technology in readmode and can solve exercises. 
-Designed to offering a dynamic and interactive learning environment accessible from anywhere with an internet 
-connection."
-              ghLink="https://github.com/ikomal/E-learning-Education"
-              demoLink="https://e-learning-learnx.vercel.app/"
+              title="Image Gallery"
+              description="Developed an interactive image gallery web application that fetches and displays images dynamically using a third-party API. Integrated search functionality to enable users to search for images by keywords or names, returning relevant results in real-time.Optimized API calls for efficient data fetching and reduced load time, enhancing application performance."
+              ghLink="https://github.com/ikomal/Image_Gallery"
+              demoLink="https://image-gallery-ivory-eight.vercel.app/"
             />
           </Col>
 
@@ -50,9 +50,9 @@ connection."
               imgPath={food}
               isBlog={false}
               title="FoodBestow"
-              description="This platform is designed to provide surplus food left over in pg,restaurents and hotels to the needy ones by connecting them with NGOs.It is an intermediate to connect the donors to receivers"
-              ghLink="https://github.com/ikomal/FoodBestow"
-              demoLink="https://food-bestow.vercel.app/"
+              description="Designed and developed a responsive rental website to showcase property listings with detailed descriptions, images, and pricing.Integrated interactive features such as image carousels, property details pages, and booking forms.Implemented responsive design for compatibility across various devices and screen sizes."
+              ghLink="https://github.com/ikomal/Rental-website"
+              demoLink="https://rental-website-seven.vercel.app/"
             />
           </Col>
 
